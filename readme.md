@@ -1,2 +1,2 @@
-#Demo for Razor with AngularJs
+#Demo for Razor with AngularJs and RequireJs
 
