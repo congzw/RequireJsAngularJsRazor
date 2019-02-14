@@ -1,7 +1,7 @@
 define(['nbLog'], function (nbLog) {
 
     function resumeBootstrap(appName) {
-        require(['nbLog', 'angular'], function (nbLog, angular) {
+        require(['angular'], function (angular) {
             angular.element().ready(function () {
                 nbLog.debug('mainAppInitDelay.js resumeBootstrap for: ' + appName);
                 angular.resumeBootstrap([appName]);

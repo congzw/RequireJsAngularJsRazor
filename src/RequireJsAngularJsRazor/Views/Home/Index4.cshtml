@@ -10,25 +10,5 @@
 
 @section scripts
 {
-    <script>
-        require(['nbLog', 'jquery', 'daterangepicker', 'mainApp', 'mainAppInitDelay'], function (nbLog, $, daterangepicker, mainApp, mainAppInitDelay) {
-
-            nbLog.debug('DemoIndexPage script begin!');
-
-            setTimeout(function () {
-                
-
-                nbLog.debug('DemoIndexPage run very long time!');
-
-                mainApp.controller('demoCtrl', function ($scope) {
-                    $scope.message = "from angular controller!";
-                });
-
-                nbLog.debug('DemoIndexPage script done!');
-                mainAppInitDelay.resumeBootstrap(mainApp.name);
-
-            }, 500);
-
-        });
-    </script>
+    <script src="~/Content/scripts/home.index4.js"></script>
 }

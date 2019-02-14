@@ -95,6 +95,7 @@
     <Content Include="Content\libs\toastr\toastr.css" />
     <Content Include="Content\libs\toastr\toastr.js" />
     <Content Include="Content\scripts\config.js" />
+    <Content Include="Content\scripts\home.index4.js" />
     <Content Include="Content\scripts\mainAppInitDelay.js" />
     <Content Include="Content\scripts\mainAppInit.js" />
     <Content Include="Content\scripts\home.index.js" />
